@@ -7,7 +7,7 @@ export default function Input() {
             <div className='w-full flex justify-between items-center'>
                 <div className='flex items-center'>
                     <img className='w-3' src="../../icons/plus.png" alt="" />
-                    <div className='ml-2 text-sm font-semibold'>New chat</div>
+                    <div className='ml-2 text-sm font-semibold hover:text-primary cursor-pointer'>New chat</div>
                 </div>
                 <div className='w-[8rem] h-[2rem] flex justify-center items-center border rounded-lg cursor-pointer hover:bg-gray-50'>
                     <div className='text-xs font-semibold'><span className='mr-1'>&#x25A0;</span> Stop generating</div>
