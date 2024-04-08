@@ -1,13 +1,15 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+import Chat from './Components/Chat'
+import Input from './Components/Input'
 
 function App() {
 
   return (
-    <div>
-      ChatBot
+    <div className='w-screen h-screen bg-white flex flex-col justify-center items-center'>
+      <Chat />
+      <Input />
     </div>
   )
 }
