@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Input() {
     return (
-        <div className='w-[60%] h-[25%] border-t absolute bottom-0 py-5'>
+        <div className='w-[60%] h-[25%] border-t fixed bottom-0 py-5 bg-white'>
             <div className='w-full flex justify-between items-center'>
                 <div className='flex items-center'>
                     <img className='w-3' src="../../icons/plus.png" alt="" />
