@@ -16,7 +16,7 @@ export default function Input() {
             <div className='relative flex justify-center'>
                 <textarea
                     placeholder='Ask me anything...'
-                    className='w-full mt-3 border rounded-lg text-sm pl-4 pt-4 focus:border-primary foucs:border-2'
+                    className='w-full mt-3 border rounded-lg text-sm pl-4 pt-4 focus:border-primary foucs:border-2 bg-white text-black'
                     name="input"
                     rows="4" />
                 <div className='absolute bottom-2 w-[98%] flex justify-between items-center'>
